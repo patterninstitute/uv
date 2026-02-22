@@ -34,7 +34,8 @@ Imports:
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-URL: http://www.pattern.institute/uv/
+URL: https://www.pattern.institute/uv/, https://github.com/patterninstitute/uv
 Config/Needs/website: patterninstitute/chic
 Remotes:  
     patterninstitute/pyprojroot
+BugReports: https://github.com/patterninstitute/uv/issues
