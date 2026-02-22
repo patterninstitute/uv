@@ -1,5 +1,55 @@
-url: http://www.pattern.institute/uv/
+url: https://www.pattern.institute/uv/
 template:
   package: chic
   bootstrap: 5
 
+reference:
+  - title: Project lifecycle
+    desc: Initialise and manage uv projects.
+    contents:
+      - init
+      - add
+      - lock
+      - sync
+      - venv
+
+  - title: Tools
+    desc: Run Python tools in isolated environments.
+    contents:
+      - uv
+      - uvx
+      - pip_install
+
+  - title: Python
+    desc: Inspect the Python interpreter managed by uv.
+    contents:
+      - python
+      - python_version
+
+  - title: Project introspection
+    desc: Query and validate project structure.
+    contents:
+      - uses_project
+      - has_venv
+      - project_root
+      - pyproject_path
+      - check_lock
+      - check_project
+      - lock_exists
+      - lock_path
+      - uv_path
+      - uv_version
+      - uv_version_number
+
+  - title: Installation
+    desc: Install and remove the uv binary.
+    contents:
+      - available
+      - install_uv
+      - uninstall_uv
+
+  - title: Testing helpers
+    desc: Utilities for writing tests and examples.
+    contents:
+      - with_temp_project
+      - with_project_root

@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# uv
+# uv <a href="https://www.pattern.institute/uv/"><img src="man/figures/logo.svg" align="right" height="139" alt="uv website" /></a>
 
 <!-- badges: start -->
 
@@ -47,17 +47,17 @@ with_temp_project({
 })
 #> 
 #> ── Initialising Python project
-#> ✔ Writing main.py (<file:///tmp/RtmpdLPzGf/uv-project-35d85d25c39109/main.py>)
+#> ✔ Writing main.py (<file:///tmp/RtmpSg4QMs/uv-project-3671034c59d5ec/main.py>)
 #> ✔ Writing pyproject.toml
-#>   (<file:///tmp/RtmpdLPzGf/uv-project-35d85d25c39109/pyproject.toml>)
+#>   (<file:///tmp/RtmpSg4QMs/uv-project-3671034c59d5ec/pyproject.toml>)
 #> ✔ Writing README.md
-#>   (<file:///tmp/RtmpdLPzGf/uv-project-35d85d25c39109/README.md>)
+#>   (<file:///tmp/RtmpSg4QMs/uv-project-3671034c59d5ec/README.md>)
 #> Using CPython 3.11.13
 #> Creating virtual environment at: .venv
 #> Activate with: source .venv/bin/activate
 #> 
 #> ── Adding packages
-#> ℹ Updating pyproject.toml (<file:///tmp/RtmpdLPzGf/uv-project-35d85d25c39109/pyproject.toml>)
+#> ℹ Updating pyproject.toml (<file:///tmp/RtmpSg4QMs/uv-project-3671034c59d5ec/pyproject.toml>)
 #> ✔ certifi==2026.1.4
 #> ✔ charset-normalizer==3.4.4
 #> ✔ idna==3.11
@@ -65,7 +65,7 @@ with_temp_project({
 #> ✔ urllib3==2.6.3
 #> ! warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
 #> ✔ Lockfile updated.
-#> Resolved 6 packages in 0.31ms
+#> Resolved 6 packages in 0.33ms
 #> Audited 5 packages in 0.00ms
 #> uv 0.7.13 (62ed17b23 2025-06-12)
 #> 
