@@ -1,0 +1,40 @@
+Package: uv
+Type: Package
+Title: Interface to the uv Python Package Manager
+Version: 0.3.0
+Authors@R: c(
+    person(
+      "Ramiro", "Magno",
+      role = c("aut", "cre"),
+      email = "rmagno@pattern.institute",
+      comment = c(ORCID = "0000-0001-5226-3441")
+    ),
+    person(
+      "Pattern Institute",
+      role = c("cph", "fnd"),
+      comment = c("https://www.pattern.institute"))
+    )
+Description: Provides an R interface to the uv command-line tool for Python
+    project and dependency management. Functions expose uv subcommands directly,
+    allowing R users to manage Python environments, dependencies, and lockfiles
+    in a transparent and reproducible way.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+Roxygen: list(markdown = TRUE)
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+    cli,
+    fs,
+    processx,
+    pyprojroot (>= 0.1.0),
+    withr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: http://www.pattern.institute/uv/
+Config/Needs/website: patterninstitute/chic
+Remotes:  
+    patterninstitute/pyprojroot

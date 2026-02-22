@@ -1,0 +1,60 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# uv
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/patterninstitute/uv/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/patterninstitute/uv/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
+Call uv from R.
+
+## Installation
+
+``` r
+# install.packages("pak")
+pak::pak("uv")
+```
+
+## Workflow Example
+
+```{r}
+library(uv)
+
+with_temp_project({
+  # Initialise a uv project in the current directory
+  uv::init()
+  
+  # Create a local virtual environment
+  uv::venv()
+  
+  # Add a runtime dependency (declares it in pyproject.toml)
+  uv::add("requests")
+  
+  # Resolve and lock dependencies
+  uv::lock()
+  
+  # Synchronise the environment with the lockfile
+  uv::sync()
+  
+  # Run uv commands directly if needed
+  # same as `uv::version()
+  uv("--version")
+  
+  # Run a tool in an ephemeral environment
+  uvx("pycowsay", "hello from uv")
+})
+```
+
