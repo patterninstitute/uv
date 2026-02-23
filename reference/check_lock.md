@@ -63,21 +63,5 @@ with_temp_project({
   lock()
   check_lock()
 })
-#> 
-#> ── Initialising Python project 
-#> ✔ Writing README.md (<file:///tmp/Rtmppl72Ac/uv-project-1c8ef63fff8/README.md>)
-#> ✔ Writing main.py (<file:///tmp/Rtmppl72Ac/uv-project-1c8ef63fff8/main.py>)
-#> ✔ Writing pyproject.toml
-#>   (<file:///tmp/Rtmppl72Ac/uv-project-1c8ef63fff8/pyproject.toml>)
-#> ✔ Lockfile updated.
-#> 
-#> ── Adding packages 
-#> ℹ Updating pyproject.toml (<file:///tmp/Rtmppl72Ac/uv-project-1c8ef63fff8/pyproject.toml>)
-#> ✔ certifi==2026.1.4
-#> ✔ charset-normalizer==3.4.4
-#> ✔ idna==3.11
-#> ✔ requests==2.32.5
-#> ✔ urllib3==2.6.3
-#> ✔ Lockfile updated.
-#> [1] TRUE
+#> Error: ! command is not a string (length 1 character)
 ```

@@ -26,11 +26,5 @@ withr::local_tempdir() |>
     init()
     python()
   })
-#> 
-#> ── Initialising Python project 
-#> ✔ Writing README.md (<file:///tmp/Rtmppl72Ac/file1c8e2cb83b6f/README.md>)
-#> ✔ Writing main.py (<file:///tmp/Rtmppl72Ac/file1c8e2cb83b6f/main.py>)
-#> ✔ Writing pyproject.toml
-#>   (<file:///tmp/Rtmppl72Ac/file1c8e2cb83b6f/pyproject.toml>)
-#> [1] "/usr/bin/python3.12"
+#> Error: ! command is not a string (length 1 character)
 ```

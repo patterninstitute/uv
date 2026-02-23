@@ -41,4 +41,5 @@ This is a thin wrapper around `uv tool run` (i.e. `uvx`).
 
 ``` r
 uvx("ruff", args = c("--version"), quiet = TRUE)
+#> Error: ! command is not a string (length 1 character)
 ```

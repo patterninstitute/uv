@@ -79,14 +79,5 @@ with_temp_project({
   # Upgrade all dependencies
   lock(upgrade = TRUE)
 })
-#> 
-#> ── Initialising Python project 
-#> ✔ Writing README.md (<file:///tmp/Rtmppl72Ac/uv-project-1c8ed87786c/README.md>)
-#> ✔ Writing main.py (<file:///tmp/Rtmppl72Ac/uv-project-1c8ed87786c/main.py>)
-#> ✔ Writing pyproject.toml
-#>   (<file:///tmp/Rtmppl72Ac/uv-project-1c8ed87786c/pyproject.toml>)
-#> ✔ Lockfile updated.
-#> ✔ Lockfile exists.
-#> ✔ Lockfile is up to date.
-#> ✔ Upgraded all dependencies and updated lockfile.
+#> Error: ! command is not a string (length 1 character)
 ```

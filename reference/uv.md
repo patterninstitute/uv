@@ -114,18 +114,5 @@ with_temp_project({
   # 5. Prove the package is importable
   uv("run", .args = c("python", "-c", "import requests; print(requests.__version__)"))
 })
-#> Initialized project `uv-project-1c8e6c3da9f9`
-#> Using CPython 3.12.3 interpreter at: /usr/bin/python3.12
-#> Creating virtual environment at: .venv
-#> Resolved 6 packages in 4ms
-#> Installed 5 packages in 3ms
-#>  + certifi==2026.1.4
-#>  + charset-normalizer==3.4.4
-#>  + idna==3.11
-#>  + requests==2.32.5
-#>  + urllib3==2.6.3
-#> Resolved 6 packages in 0.58ms
-#> Resolved 6 packages in 0.52ms
-#> Audited 5 packages in 0.13ms
-#> 2.32.5
+#> Error: ! command is not a string (length 1 character)
 ```

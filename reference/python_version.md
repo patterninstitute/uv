@@ -26,12 +26,5 @@ with_temp_project({
     init()
     python_version()
   })
-#> 
-#> ── Initialising Python project 
-#> ✔ Writing README.md
-#>   (<file:///tmp/Rtmppl72Ac/uv-project-1c8e2496778c/README.md>)
-#> ✔ Writing main.py (<file:///tmp/Rtmppl72Ac/uv-project-1c8e2496778c/main.py>)
-#> ✔ Writing pyproject.toml
-#>   (<file:///tmp/Rtmppl72Ac/uv-project-1c8e2496778c/pyproject.toml>)
-#> [1] "3.12.3"
+#> Error: ! command is not a string (length 1 character)
 ```

@@ -33,13 +33,5 @@ with_temp_project({
   # Now it exists
   lock_exists()
 })
-#> 
-#> ── Initialising Python project 
-#> ✔ Writing README.md (<file:///tmp/Rtmppl72Ac/uv-project-1c8efc26eec/README.md>)
-#> ✔ Writing main.py (<file:///tmp/Rtmppl72Ac/uv-project-1c8efc26eec/main.py>)
-#> ✔ Writing pyproject.toml
-#>   (<file:///tmp/Rtmppl72Ac/uv-project-1c8efc26eec/pyproject.toml>)
-#> ✔ Lockfile updated.
-#> /tmp/Rtmppl72Ac/uv-project-1c8efc26eec/uv.lock 
-#>                                           TRUE 
+#> Error: ! command is not a string (length 1 character)
 ```

@@ -25,5 +25,5 @@ Returns the result of evaluating `code`.
 with_temp_project({
   cat("Working in:", getwd(), "\n")
 })
-#> Working in: /tmp/Rtmppl72Ac/uv-project-1c8e939c88d 
+#> Working in: /tmp/Rtmps0iwey/uv-project-1bc67b21f0a 
 ```

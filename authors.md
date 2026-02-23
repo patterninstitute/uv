@@ -10,13 +10,16 @@
 
 ## Citation
 
+Source:
+[`DESCRIPTION`](https://github.com/patterninstitute/uv/blob/main/DESCRIPTION)
+
 Magno R (2026). *uv: Interface to the uv Python Package Manager*. R
-package version 0.3.0, <http://www.pattern.institute/uv/>.
+package version 0.3.0, <https://www.pattern.institute/uv/>.
 
     @Manual{,
       title = {uv: Interface to the uv Python Package Manager},
       author = {Ramiro Magno},
       year = {2026},
       note = {R package version 0.3.0},
-      url = {http://www.pattern.institute/uv/},
+      url = {https://www.pattern.institute/uv/},
     }

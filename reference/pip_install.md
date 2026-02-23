@@ -36,11 +36,5 @@ with_temp_project({
   init()
   pip_install("requests", quiet = TRUE)
 })
-#> 
-#> ── Initialising Python project 
-#> ✔ Writing README.md
-#>   (<file:///tmp/Rtmppl72Ac/uv-project-1c8e7f176c85/README.md>)
-#> ✔ Writing main.py (<file:///tmp/Rtmppl72Ac/uv-project-1c8e7f176c85/main.py>)
-#> ✔ Writing pyproject.toml
-#>   (<file:///tmp/Rtmppl72Ac/uv-project-1c8e7f176c85/pyproject.toml>)
+#> Error: ! command is not a string (length 1 character)
 ```
